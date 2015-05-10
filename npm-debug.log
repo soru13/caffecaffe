@@ -1,0 +1,134 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'font-awesome-stylus',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'font-awesome-stylus', null ]
+5 verbose cache add name=undefined spec="font-awesome-stylus" args=["font-awesome-stylus",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'font-awesome-stylus',
+6 verbose parsed url   path: 'font-awesome-stylus',
+6 verbose parsed url   href: 'font-awesome-stylus' }
+7 silly lockFile 08af1f75-font-awesome-stylus font-awesome-stylus
+8 verbose lock font-awesome-stylus /Users/soru/.npm/08af1f75-font-awesome-stylus.lock
+9 silly lockFile 08af1f75-font-awesome-stylus font-awesome-stylus
+10 silly lockFile 08af1f75-font-awesome-stylus font-awesome-stylus
+11 verbose addNamed [ 'font-awesome-stylus', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f67ca7f3-font-awesome-stylus font-awesome-stylus@
+14 verbose lock font-awesome-stylus@ /Users/soru/.npm/f67ca7f3-font-awesome-stylus.lock
+15 silly addNameRange { name: 'font-awesome-stylus', range: '*', hasData: false }
+16 verbose request where is /font-awesome-stylus
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4107b7525ebec01b
+19 verbose url raw /font-awesome-stylus
+20 verbose url resolving [ 'https://registry.npmjs.org/', './font-awesome-stylus' ]
+21 verbose url resolved https://registry.npmjs.org/font-awesome-stylus
+22 verbose request where is https://registry.npmjs.org/font-awesome-stylus
+23 info trying registry request attempt 1 at 00:56:18
+24 http GET https://registry.npmjs.org/font-awesome-stylus
+25 http 200 https://registry.npmjs.org/font-awesome-stylus
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"CAWCMUQIRTQ70KV69603N7LWJ"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '2603',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Sun, 10 May 2015 06:56:21 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-ord1724-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1431240981.473239,VS0,VE70',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'font-awesome-stylus', range: '*', hasData: true }
+28 silly addNameRange versions [ 'font-awesome-stylus', [ '1.2.0', '4.3.0' ] ]
+29 verbose addNamed [ 'font-awesome-stylus', '4.3.0' ]
+30 verbose addNamed [ '4.3.0', '4.3.0' ]
+31 silly lockFile c751435f-font-awesome-stylus-4-3-0 font-awesome-stylus@4.3.0
+32 verbose lock font-awesome-stylus@4.3.0 /Users/soru/.npm/c751435f-font-awesome-stylus-4-3-0.lock
+33 silly lockFile 8b9f6406-us-font-awesome-stylus-4-3-0-tgz https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+34 verbose lock https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz /Users/soru/.npm/8b9f6406-us-font-awesome-stylus-4-3-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz',
+35 verbose addRemoteTarball   '3d3b683fae9149201e6353bcf44a7c9fc969160d' ]
+36 info retry fetch attempt 1 at 00:56:21
+37 verbose fetch to= /var/folders/2d/g59pk8fs3mbfp3bm6zmtbvmm0000gn/T/npm-26543-zSk_iDag/registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+38 http GET https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+39 http 200 https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+40 silly lockFile 8b9f6406-us-font-awesome-stylus-4-3-0-tgz https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+41 silly lockFile 8b9f6406-us-font-awesome-stylus-4-3-0-tgz https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz
+42 silly lockFile c751435f-font-awesome-stylus-4-3-0 font-awesome-stylus@4.3.0
+43 silly lockFile c751435f-font-awesome-stylus-4-3-0 font-awesome-stylus@4.3.0
+44 silly lockFile f67ca7f3-font-awesome-stylus font-awesome-stylus@
+45 silly lockFile f67ca7f3-font-awesome-stylus font-awesome-stylus@
+46 silly resolved [ { name: 'font-awesome-stylus',
+46 silly resolved     version: '4.3.0',
+46 silly resolved     homepage: 'https://github.com/raulghm/Font-Awesome-Stylus',
+46 silly resolved     authors: 'Raúl Hernández',
+46 silly resolved     description: 'Stylus port for font-awesome (npm package)',
+46 silly resolved     main: './stylus/index.styl',
+46 silly resolved     keywords: [ 'font awesome', 'font awesome stylus' ],
+46 silly resolved     license: 'MIT',
+46 silly resolved     _id: 'font-awesome-stylus@4.3.0',
+46 silly resolved     _shasum: '3d3b683fae9149201e6353bcf44a7c9fc969160d',
+46 silly resolved     _from: 'font-awesome-stylus@',
+46 silly resolved     _npmVersion: '1.4.9',
+46 silly resolved     _npmUser: { name: 'philt', email: 'phil@electricvisions.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: '3d3b683fae9149201e6353bcf44a7c9fc969160d',
+46 silly resolved        tarball: 'http://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/font-awesome-stylus/-/font-awesome-stylus-4.3.0.tgz' } ]
+47 info install font-awesome-stylus@4.3.0 into /usr/local/lib
+48 info installOne font-awesome-stylus@4.3.0
+49 verbose lib/node_modules/font-awesome-stylus unbuild
+50 verbose tar unpack /Users/soru/.npm/font-awesome-stylus/4.3.0/package.tgz
+51 silly lockFile f6d808de-node-modules-font-awesome-stylus tar:///usr/local/lib/node_modules/font-awesome-stylus
+52 verbose lock tar:///usr/local/lib/node_modules/font-awesome-stylus /Users/soru/.npm/f6d808de-node-modules-font-awesome-stylus.lock
+53 silly lockFile 446543fc-awesome-stylus-4-3-0-package-tgz tar:///Users/soru/.npm/font-awesome-stylus/4.3.0/package.tgz
+54 verbose lock tar:///Users/soru/.npm/font-awesome-stylus/4.3.0/package.tgz /Users/soru/.npm/446543fc-awesome-stylus-4-3-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/font-awesome-stylus'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/font-awesome-stylus']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/font-awesome-stylus',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/font-awesome-stylus',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.1.0
+59 error command "node" "/usr/local/bin/npm" "install" "font-awesome-stylus" "-g"
+60 error cwd /Users/soru/github/caffecaffe
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/font-awesome-stylus
+64 error fstream_path /usr/local/lib/node_modules/font-awesome-stylus
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/font-awesome-stylus'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
