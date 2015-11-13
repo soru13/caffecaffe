@@ -1,7 +1,8 @@
 @import "animate.min.css"
-@import '/Users/soru/github/caffecaffe/css/font-awesome/css/font-awesome.min.css'
+@import "font-awesome/css/font-awesome.min.css"
 @import "nib/vendor"
 @import 'nib/normalize'
+
 vendor-prefixes = o ms moz webkit
 
 body
@@ -9,35 +10,39 @@ body
 	text-align center
 footer
 	color white
-	background-color black
+	background-color #A02525
 #videoAirbnb
 	position relative
 	width 100%
 	display none
 #imagPrincipal
 	position  relative
-	width  100%
-	height  546px
-	background-image url('https://raw.githubusercontent.com/soru13/caffecaffe/gh-pages/img/Screen%20Shot%202015-05-10%20at%2012.35.38%20AM.png')
+	img
+		width  100%
+		height  546px
 #header
 	position absolute
 	text-align center
 	width  100%
 	top  0px
 	#blockLanding
-		padding-top  130px
+		padding-top  213px
 	#mynameTitle
 		color  white
 		line-height  .9em
 		margin  0px
 		position  relative
+		a
+			color white
+			&:hover
+				text-decoration none
+				color white
 	.myCopys
 		color  white
 		line-height  .9em
 		margin  0px
 		padding  0px
 		position  relative
-		margin-top  22px
 	#content
 		position  relative
 		color white
@@ -49,19 +54,10 @@ footer
 		border-radius  0px
 		background  rgba(255,255,255,0.5)
 		border-style  none
-		top 79px
+		margin-top 23px
 		&:hover{background-color:  rgba(4, 4, 4, 0.5);}
 /*media Query principal airbnb*/
-@media screen and (max-width  480px)
-	#imgDevices
-		display none
-@media screen and (max-width  640px)
-	#mynameTitle
-		font-size  40px//pantalla chica
-	.myCopys
-		font-size  14px//para pantalla chica
-	#content
-		font-size  15px//para pantalla chica
+
 @media screen and (min-width  1024px)
 	#mynameTitle
 		font-size  70px//pantalla grande
@@ -73,6 +69,37 @@ footer
 		display block
 	#imagPrincipal
 		display none
+@media screen and (max-width  1134px)
+	#mynameTitle
+		font-size 65px//pantalla chica
+	.myCopys
+		font-size  24px//para pantalla chica
+	#content
+		font-size  20px//para pantalla chica
+@media screen and (max-width  1024px)
+	#mynameTitle
+		font-size 60px//pantalla chica
+	.myCopys
+		font-size  24px//para pantalla chica
+	#content
+		font-size  20px//para pantalla chica
+@media screen and (max-width  1009px)
+	#mynameTitle
+		font-size 45px//pantalla chica
+		img
+			width 200px
+@media screen and (max-width  480px)
+	#imgDevices
+		display none
+@media screen and (max-width  640px)
+	#mynameTitle
+		font-size  25px//pantalla chica
+		img
+			width 150px
+	.myCopys
+		font-size  14px//para pantalla chica
+	#content
+		font-size  15px//para pantalla chica
 /*<<<<<<<<<<<<<<<<<<<<<<<<menu>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #menu
 	position fixed
@@ -108,7 +135,8 @@ footer
 #aboutme
 	text-align center
 	height 365px
-	background-color #8c8b87
+	background-color #159957
+	background-image: linear-gradient(120deg, #155799, #159957);
 	color white
 	h1
 		padding-top 40px
@@ -135,38 +163,178 @@ footer
 		p
 			font-size 16px
 /*<<<<<<<<<<<<<<<<<<<<<<<<end aboutme>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<Trust-list>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.Trust-list
-	margin 0
-	padding 0
+/*<<<<<<<<<<<<<<<<<<<<<<<imgFrontend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#imgFrontend
+	display block
+	max-width 100% !important
+	height 546px
+	color white
+	padding-top 152px
+	background-repeat  no-repeat
+	background-position  center
+	background-image url('https://raw.githubusercontent.com/soru13/Eduardo/gh-pages/img/frontend_cover.jpg')
+.landdingBanner
+	max-width  750px
+	width auto
+	margin  0 auto
 	text-align center
-	.Trust-company
-		display inline-block
-		margin 15px 25px
-		filter grayscale(100%)
-	.sprite-coppel
-		width 148px
-		height 64px
-	.sprite-ayuntamiento
-		width 144px
-		height 75px
-	.sprite-gobierno
-		width 125px
-		height 155px
-	.sprite-imss
-		width 100px
-		height 40px
-	.sprite-tec
-		width 100px
-		height 40px
-	.sprite-premier
-		width 174px
-		height 53px
-	.sprite-monterrey
-		width 243px
-		height 112px
-/*<<<<<<<<<<<<<<<<<<<<<<<<end Trust-list>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+	height  202px
+	position relative
+	.LandingBanner-left
+		display block
+		height  202px
+		position relative
+		float left
+		.LandingBadge-container
+			position relative
+			margin 0px
+		p
+			margin 0px
+			padding 0px
+	.landingBanner-right
+		text-align left
+		display block
+		position relative
+/*media Query principal airbnb*/
+@media screen and (max-width  1023px)
+	.yo
+		display none
+	#yophoto
+		display none
+	.landingBanner-right
+		padding-left  168px
+@media screen and (max-width  640px)
+	.landingBanner-right
+		float  left
+		width  480px
+		padding-left  35px
+@media screen and (max-width  480px)
+	.landingBanner-right
+		width  300px
+	.LandingBanner-left
+		width  100px
+	.LandingBadge-item
+		width  100px
+		height  100px
+		h1
+			margin-bottom  27px
+	.block
+		width  100%
+@media screen and (max-width  401px)
+	#mynameTitle
+		font-size  19px//pantalla chica
+@media screen and (min-width  320px)
+	body
+		font-size 14px
+	#menu
+		height  62px
+	.landingBanner-right
+		width  215px
+		padding-left  6px
+		h1
+			margin-bottom  14px
+	.LandingBanner-left
+		width  80px
+	.LandingBadge-item
+		width  80px
+		height  80px
+	.block
+		width  100%
+@media screen and (min-width  640px)
+	#menu
+		height  32px
+	.landingBanner-right
+		float  left
+		width  480px
+		padding-left  35px
+	.LandingBanner-left
+		width 146px
+@media screen and (min-width  1024px)
+	body
+		font-size 16px
+	.landingBanner-right
+		float right
+		width  600px
+		padding-left  57px
+	.block
+		width 30%
+	.LandingBadge-item
+		width  146px
+		height  146px
+/*<<<<<<<<<<<<<<<<<<<<<<<end imgFrontend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<myKnowledgeFrontend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.LandingSummary-container
+	box-sizing  border-box
+	margin  0 auto
+	max-width  1000px
+	padding  0 15px
+	position  relative
+	.LandingSkills
+		padding  20px 0
+		margin-left  -40px
+		.LandingSkills-item
+			display  inline-block
+			margin-bottom  20px
+			margin-left  40px
+			width  95px
+			vertical-align  top
+			.LandingSkills-image
+				margin-bottom  5px
+	.LandingSummary-list
+		column-count  3
+		flex-flow  wrap
+		justify-content  space-between
+		overflow  hidden
+		padding  0
+		.LandingSummary-item
+			list-style  none
+			text-align  left
+			padding  5px
+			box-sizing  border-box
+			position  relative
+			& before
+				content '.'
+				position  absolute
+				left  0
+				top  0
+				font-weight  bold
+/*<<<<<<<<<<<<<<<<<<<<<<<end myKnowledgeFrontend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<imgBackend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#imgBackend
+	display block
+	width 100%
+	height 546px
+	color white
+	background-repeat  no-repeat
+	background-position  center
+	background-image url('https://raw.githubusercontent.com/soru13/Eduardo/gh-pages/img/backend_cover.jpg')
+	padding-top  152px
+/*<<<<<<<<<<<<<<<<<<<<<<<end imgBackend>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<imgStrategy>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#imgStrategy
+	display block
+	width 100%
+	height 546px
+	color white
+	background-repeat  no-repeat
+	background-position  center
+	background-image url('https://static.platzi.com/media/courses/marketing_cover.jpg')
+	padding-top  152px
+@media screen and (max-width  1023px)
+	#imgStrategy
+		padding-top  100px
+/*<<<<<<<<<<<<<<<<<<<<<<<end imgStrategy>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<imgIOS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#imgIOS
+	display block
+	width 100%
+	height 546px
+	color white
+	background-repeat  no-repeat
+	background-position  center
+	background-image url('https://static.platzi.com/media/courses/ios_cover.jpg')
+	padding-top  152px
+/*<<<<<<<<<<<<<<<<<<<<<<<end imgIOS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<Contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .Contact-title
 	font-weight  bold
@@ -195,6 +363,55 @@ footer
 	.Contact-media
 		width 100%
 /*<<<<<<<<<<<<<<<<<<<<<<<end Contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<growht myKnowledgeStrategy>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.tools
+	flex-flow  wrap
+	justify-content  space-between
+	overflow  hidden
+	padding  0
+	text-align  left
+	center
+		color  purple
+	li
+		margin-bottom  1%
+	img,svg
+		width 200px
+		height 41px
+		display inline-block
+	p
+		display inline-block
+		margin-left 1%
+/*<<<<<<<<<<<<<<<<<<<<<<<end growht myKnowledgeStrategy>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*<<<<<<<<<<<<<<<<<<<<<<<<Trust-list>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.Trust-list
+	margin 0
+	padding 0
+	text-align center
+	.Trust-company
+		display inline-block
+		margin 15px 25px
+		-webkit-filter grayscale(100%)
+		&:hover
+			-webkit-filter none
+			-webkit-filter grayscale(0)
+	.sprite-coppel
+		width 125px
+		height 65px
+	.sprite-ayuntamiento
+		width: 100px;
+	.sprite-gobierno,.sprite-imss,.sprite-tec
+		width 100px
+		height 90px
+	.sprite-hcc
+		width 144px
+		height 75px
+	.sprite-credilikeme
+		width 125px
+		height 60px
+	.sprite-uas
+		width 125px
+		height 125px
+/*<<<<<<<<<<<<<<<<<<<<<<<<end Trust-list>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .texleft
 	text-align left
 .semi-transparent
@@ -208,6 +425,8 @@ footer
 .up
 	margin-left 5px
 	&:hover{color: gray;}
+.white
+	color white
 .redondeo
 	border-radius 50%
 	position relative
@@ -221,5 +440,3 @@ footer
 	height  21.5px
 	margin  0px auto
 .colordark{background-color:darkslategray;}
-.white
-	color white
