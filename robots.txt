@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: https://raw.githubusercontent.com/soru13/Eduardo/gh-pages/sitemap.xml
+Sitemap: https://raw.githubusercontent.com/soru13/Dentista/gh-pages/sitemap.xml
